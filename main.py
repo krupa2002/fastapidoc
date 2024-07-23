@@ -18,7 +18,7 @@ pdf_embeddings = None
 index = None
 
 
-openai.api_key = "sk-proj-7Wugf2LijKaO9kViHzq9T3BlbkFJsM580HpLtb9kIcNU7usk"
+openai.api_key = "API-KEY"
 
 @app.post("/upload/")
 async def upload_pdf(file: UploadFile = File(...)):
